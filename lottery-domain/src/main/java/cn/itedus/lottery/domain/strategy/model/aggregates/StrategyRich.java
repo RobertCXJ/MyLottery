@@ -1,5 +1,6 @@
 package cn.itedus.lottery.domain.strategy.model.aggregates;
 
+
 import cn.itedus.lottery.infrastructure.po.Strategy;
 import cn.itedus.lottery.infrastructure.po.StrategyDetail;
 
