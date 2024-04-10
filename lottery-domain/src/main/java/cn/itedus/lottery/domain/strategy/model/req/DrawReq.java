@@ -4,10 +4,14 @@ import cn.itedus.lottery.infrastructure.po.Strategy;
 
 public class DrawReq {
 
-    // 用户ID
+    /**
+     * 用户ID
+     */
     private String uId;
 
-    // 策略ID
+    /**
+     * 策略ID
+     */
     private Long strategyId;
 
     public DrawReq() {
