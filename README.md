@@ -1,5 +1,7 @@
 # :gift: Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践
 
+![](https://codechina.csdn.net/KnowledgePlanet/Lottery/-/raw/master/doc/_media/首图.png)
+
 <div align="center">
     <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://codechina.csdn.net/KnowledgePlanet/Lottery/-/raw/master/doc/_media/lottery.png" width="128px"></a>
 </div>
@@ -12,15 +14,16 @@
 <a href="#">规则引擎</a>
 </div>
 
->` Lottery 抽奖系统` 项目是一款互联网面向C端人群营销活动类的抽奖系统，可以提供抽奖活动玩法策略的创建、参与、记账、发奖等逻辑功能。在使用的过程中运营人员通过创建概率类奖品的抽奖玩法，对用户进行拉新、促活、留存，通常这样的系统会用在电商、外卖、出行、公众号运营等各类场景中。By 小傅哥，[《重学Java设计模式》](https://item.jd.com/13218336.html)图书作者，沉淀、分享、成长，让自和他人都能有所收获！
+>` Lottery 抽奖系统` 项目是一款互联网面向C端人群营销活动类的抽奖系统，可以提供抽奖活动玩法策略的创建、参与、记账、发奖等逻辑功能。在使用的过程中运营人员通过创建概率类奖品的抽奖玩法，对用户进行拉新、促活、留存，通常这样的系统会用在电商、外卖、出行、公众号运营等各类场景中。By 小傅哥，[《重学Java设计模式》](https://item.jd.com/13218336.html)图书作者，沉淀、分享、成长，让自己和他人都能有所收获！
 
 ⛳ **目录**
 
+- [《抽奖系统 | 实战开发小册 • 更新6节》，Go！](https://codechina.csdn.net/KnowledgePlanet/Lottery/-/wikis/home)
 - [学习说明](https://codechina.csdn.net/KnowledgePlanet/Lottery#-%E5%AD%A6%E4%B9%A0%E8%AF%B4%E6%98%8E)
-- [系统架构](https://codechina.csdn.net/KnowledgePlanet/Lottery#-%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84)
-- [开发日志](https://codechina.csdn.net/KnowledgePlanet/Lottery#-%E5%BC%80%E5%8F%91%E6%97%A5%E8%AE%B0)
-- [开发规范(分支、提交)](https://codechina.csdn.net/KnowledgePlanet/Lottery#-%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83)
-- [问题交流](https://codechina.csdn.net/KnowledgePlanet/Lottery#-%E9%97%AE%E9%A2%98%E4%BA%A4%E6%B5%81)
+- [环境配置 🤔 `重点注意使用SQL按照分支步骤更新，不要用最新的SQL对应最开始的代码`](https://codechina.csdn.net/KnowledgePlanet/Lottery#-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE)
+- [开发规范(分支、提交)](https://codechina.csdn.net/KnowledgePlanet/Lottery/-/wikis/home#-%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83)
+- [学习作业 🍁`(留下你的学习足迹，记录、分享、共同成长)`](https://codechina.csdn.net/KnowledgePlanet/Lottery/-/tree/master#-%E5%AD%A6%E4%B9%A0%E4%BD%9C%E4%B8%9A)
+- [联系作者](https://codechina.csdn.net/KnowledgePlanet/Lottery#-%E8%81%94%E7%B3%BB%E4%BD%9C%E8%80%85)
 - [感谢支持](https://codechina.csdn.net/KnowledgePlanet/Lottery#-%E6%84%9F%E8%B0%A2%E6%94%AF%E6%8C%81)
 
 ## 📝 学习说明
@@ -31,17 +34,14 @@
 - 架构：DDD 领域驱动设计、充血模型、设计模式
 - 规范：分支提交规范、代码编写规范
 
-## 🎨 系统架构
+## 🎨 环境配置
 
-- 待编写，当设计和输出完第一章节后，陆续补全系统架构
-
-## 📘 开发日志
-
-- [x] [`第 01 节：开篇介绍 - 怎么上手、学到哪些`](https://codechina.csdn.net/KnowledgePlanet/Lottery/-/blob/master/doc/notes/%E7%AC%AC%2001%20%E8%8A%82%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%20-%20%E6%80%8E%E4%B9%88%E4%B8%8A%E6%89%8B%E3%80%81%E5%AD%A6%E5%88%B0%E5%93%AA%E4%BA%9B.md)
-- [x] [`第 02 节：搭建(DDD + RPC)分布式架构`](https://codechina.csdn.net/KnowledgePlanet/Lottery/-/blob/master/doc/notes/%E7%AC%AC%2002%20%E8%8A%82%EF%BC%9A%E6%90%AD%E5%BB%BA(DDD%20+%20RPC)%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84.md)
-- [x] [`第 03 节：跑通广播模式RPC过程调用`](https://codechina.csdn.net/KnowledgePlanet/Lottery/-/blob/master/doc/notes/%E7%AC%AC%2003%20%E8%8A%82%EF%BC%9A%E8%B7%91%E9%80%9A%E5%B9%BF%E6%92%AD%E6%A8%A1%E5%BC%8FRPC%E8%BF%87%E7%A8%8B%E8%B0%83%E7%94%A8.md)
-- [x] [`第 04 节：抽奖活动策略玩法库表设计和创建`](#)
-- [ ] [`第 05 节：待归档`]()
+- 技术栈：JDK1.8、Maven3.6.3、Mysql5.7(可升级配置)，SpringBoot、Mybatis、Dubbo 随POM版本
+- 建表语句：[doc/asserts/sql](https://codechina.csdn.net/KnowledgePlanet/Lottery/-/blob/master/doc/assets/sql/lottery.sql) - `建议随非分支内sql版本走，因为需求不断迭代升级优化，直接使用最新的会遇到在各个分支下的代码运行问题`
+- 代码仓库，2种使用方式：
+   - 密码方式：登录的用户ID为 CSDN 个人中心的用户ID，[https://i.csdn.net/#/user-center/profile](https://i.csdn.net/#/user-center/profile) 密码为 CSDN 登录密码。如果没有密码或者忘记，可以在 CSDN 登录页找回密码。
+   - SSH 秘钥免登录方式，设置：[https://codechina.csdn.net/-/profile/keys](https://codechina.csdn.net/-/profile/keys) 文档：[生成 SSH 密钥](https://codechina.csdn.net/codechina/help-docs/-/wikis/docs/ssh#%E7%94%9F%E6%88%90-ssh-%E5%AF%86%E9%92%A5)
+- 学习使用：下载代码库后，切换本地分支到wiki中章节对应的分支，这样代码与章节内容是对应的，否则你在master看到的是全量代码。   
 
 ## 📐 开发规范
 
@@ -68,7 +68,24 @@ ci:       与CI（持续集成服务）有关的改动
 chore:    不修改src或者test的其余修改，例如构建过程或辅助工具的变动
 ```
 
-## 🐾 问题交流
+## 🐾 学习作业
+
+- 你可以在星球APP中提交`作业题目` | 网页提交：[https://t.zsxq.com/MvFYJe2](https://t.zsxq.com/MvFYJe2)
+
+1. 今天的你学到了哪个章节？
+2. 遇到什么问题？
+3. 怎么解决的？
+4. 掌握到了什么知识？
+
+基于大家的学习反馈，小傅哥会在后续的直播中统一解决相关学习问题。加油，这趟车人人有收获！
+
+注意️：按照作业提交频次和质量，小傅哥会组织一波奖品。具体细则计划Ing
+
+<img src="https://codechina.csdn.net/KnowledgePlanet/Lottery/-/raw/master/doc/_media/job.jpg" width="414" height="891"/>
+
+- 也可以提交 issue：[https://codechina.csdn.net/KnowledgePlanet/Lottery/-/issues](https://codechina.csdn.net/KnowledgePlanet/Lottery/-/issues)
+
+## 💬 联系作者
 
 - **加群交流**
 

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @description: 兑换码类商品
-*/
+ */
 @Component
 public class RedeemCodeGoods extends DistributionBase implements IDistributionGoods {
 
@@ -23,11 +23,6 @@ public class RedeemCodeGoods extends DistributionBase implements IDistributionGo
         super.updateUserAwardState(req.getuId(), req.getOrderId(), req.getAwardId(), Constants.AwardState.SUCCESS.getCode(), Constants.AwardState.SUCCESS.getInfo());
 
         return new DistributionRes(req.getuId(), Constants.AwardState.SUCCESS.getCode(), Constants.AwardState.SUCCESS.getInfo());
-    }
-
-    @Override
-    public Integer getDistributionGoodsName() {
-        return Constants.AwardType.RedeemCodeGoods.getCode();
     }
 
 }

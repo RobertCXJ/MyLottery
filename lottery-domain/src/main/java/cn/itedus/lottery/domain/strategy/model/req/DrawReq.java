@@ -1,6 +1,5 @@
 package cn.itedus.lottery.domain.strategy.model.req;
 
-import cn.itedus.lottery.infrastructure.po.Strategy;
 
 public class DrawReq {
 
