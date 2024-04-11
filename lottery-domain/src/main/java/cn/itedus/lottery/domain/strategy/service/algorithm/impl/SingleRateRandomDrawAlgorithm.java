@@ -5,6 +5,12 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+/**
+ * @description: 单项随机概率抽奖，抽到一个已经排掉的奖品则未中奖
+ * @author：小傅哥，微信：fustack
+ * @date: 2021/8/28
+ * @Copyright：公众号：bugstack虫洞栈 | 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
+ */
 @Component("singleRateRandomDrawAlgorithm")
 public class SingleRateRandomDrawAlgorithm extends BaseAlgorithm {
 

@@ -10,6 +10,10 @@ import java.util.List;
 
 /**
  * @description: 活动仓库服务(活动表、奖品表、策略表、策略明细表)
+ * @author: 小傅哥，微信：fustack
+ * @date: 2021/9/11
+ * @github: https://github.com/fuzhengwei
+ * @Copyright: 公众号：bugstack虫洞栈 | 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
  */
 public interface IActivityRepository {
 

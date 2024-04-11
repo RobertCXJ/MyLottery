@@ -1,7 +1,10 @@
 package cn.itedus.lottery.common;
 
 /**
- * 枚举信息定义
+ * @description: 枚举信息定义
+ * @author：小傅哥，微信：fustack
+ * @date: 2021/8/28
+ * @Copyright：公众号：bugstack虫洞栈 | 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
  */
 public class Constants {
 
@@ -34,21 +37,37 @@ public class Constants {
      */
     public enum ActivityState {
 
-        /** 1：编辑 */
+        /**
+         * 1：编辑
+         */
         EDIT(1, "编辑"),
-        /** 2：提审 */
+        /**
+         * 2：提审
+         */
         ARRAIGNMENT(2, "提审"),
-        /** 3：撤审 */
+        /**
+         * 3：撤审
+         */
         REVOKE(3, "撤审"),
-        /** 4：通过 */
+        /**
+         * 4：通过
+         */
         PASS(4, "通过"),
-        /** 5：运行(活动中) */
+        /**
+         * 5：运行(活动中)
+         */
         DOING(5, "运行(活动中)"),
-        /** 6：拒绝 */
+        /**
+         * 6：拒绝
+         */
         REFUSE(6, "拒绝"),
-        /** 7：关闭 */
+        /**
+         * 7：关闭
+         */
         CLOSE(7, "关闭"),
-        /** 8：开启 */
+        /**
+         * 8：开启
+         */
         OPEN(8, "开启");
 
         private Integer code;
@@ -252,6 +271,18 @@ public class Constants {
         public void setInfo(String info) {
             this.info = info;
         }
+    }
+
+    /**
+     * Ids 生成策略枚举
+     */
+    public enum Ids {
+        /** 雪花算法 */
+        SnowFlake,
+        /** 日期算法 */
+        ShortCode,
+        /** 随机算法 */
+        RandomNumeric;
     }
 
 }

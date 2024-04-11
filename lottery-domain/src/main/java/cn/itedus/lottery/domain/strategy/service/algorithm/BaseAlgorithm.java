@@ -8,6 +8,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+/**
+ * @description: 共用的算法逻辑抽象类
+ * @author：小傅哥，微信：fustack
+ * @date: 2021/8/28
+ * @Copyright：公众号：bugstack虫洞栈 | 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
+ */
 public abstract class BaseAlgorithm implements IDrawAlgorithm {
 
     /** 斐波那契散列增量，逻辑：黄金分割点：(√5 - 1) / 2 = 0.6180339887，Math.pow(2, 32) * 0.6180339887 = 0x61c88647 */
