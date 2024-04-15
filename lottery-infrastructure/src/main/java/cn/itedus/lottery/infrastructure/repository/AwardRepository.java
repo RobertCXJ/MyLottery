@@ -3,6 +3,8 @@ package cn.itedus.lottery.infrastructure.repository;
 import cn.itedus.lottery.domain.award.repository.IAwardRepository;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
+
 /**
  * @description: 奖品表仓储服务
  * @author: 小傅哥，微信：fustack

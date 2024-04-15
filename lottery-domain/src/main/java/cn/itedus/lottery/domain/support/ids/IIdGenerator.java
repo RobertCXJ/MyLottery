@@ -18,4 +18,5 @@ public interface IIdGenerator {
      * @return ID
      */
     long nextId();
+
 }
