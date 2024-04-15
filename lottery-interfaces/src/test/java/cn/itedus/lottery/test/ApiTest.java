@@ -1,5 +1,9 @@
 package cn.itedus.lottery.test;
 
+import cn.hutool.core.lang.Snowflake;
+import cn.hutool.core.net.NetUtil;
+import cn.hutool.core.util.IdUtil;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Test;
 
 import java.security.SecureRandom;
