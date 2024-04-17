@@ -50,7 +50,7 @@ spring:
 xxl:
   job:
     admin:
-      addresses: http://117.72.42.114:7397/xxl-job-admin
+      addresses: http://localhost:7397/xxl-job-admin
     executor:
       address:
       appname: lottery-job
